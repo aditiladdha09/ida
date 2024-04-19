@@ -1,0 +1,10 @@
+pig -x local word_count.pig
+cd output.txt
+cat part-r-00000
+
+spark-shell -i p.scala
+
+docker ps -a
+first id 
+docker start <container_id>
+docker exec -it <container_id> /bin/bash
