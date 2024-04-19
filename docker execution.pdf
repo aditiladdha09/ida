@@ -1,0 +1,4 @@
+cd hodoop-docker
+docker ps-a
+./run.sh
+restart
